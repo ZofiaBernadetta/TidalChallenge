@@ -54,6 +54,7 @@ struct ArtistSearchView: View {
             placement: .navigationBarDrawer(displayMode: .always),
             prompt: "Search"
         )
+        .disableAutocorrection(true)
     }
 }
 
