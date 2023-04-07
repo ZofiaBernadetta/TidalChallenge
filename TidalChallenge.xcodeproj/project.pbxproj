@@ -8,23 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		23780A6B29DEFC9B00846ED5 /* TidalChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23780A6A29DEFC9B00846ED5 /* TidalChallengeApp.swift */; };
-		23780A6D29DEFC9B00846ED5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23780A6C29DEFC9B00846ED5 /* ContentView.swift */; };
+		23780A6D29DEFC9B00846ED5 /* ArtistSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23780A6C29DEFC9B00846ED5 /* ArtistSearchView.swift */; };
 		23780A6F29DEFC9C00846ED5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23780A6E29DEFC9C00846ED5 /* Assets.xcassets */; };
 		23780A7229DEFC9C00846ED5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23780A7129DEFC9C00846ED5 /* Preview Assets.xcassets */; };
-		23780A7C29DEFC9C00846ED5 /* TidalChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23780A7B29DEFC9C00846ED5 /* TidalChallengeTests.swift */; };
-		23780A8629DEFC9C00846ED5 /* TidalChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23780A8529DEFC9C00846ED5 /* TidalChallengeUITests.swift */; };
-		23780A8829DEFC9C00846ED5 /* TidalChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23780A8729DEFC9C00846ED5 /* TidalChallengeUITestsLaunchTests.swift */; };
+		23780A7C29DEFC9C00846ED5 /* DeezerClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23780A7B29DEFC9C00846ED5 /* DeezerClientTests.swift */; };
+		23780A9529DF002300846ED5 /* ArtistCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23780A9429DF002300846ED5 /* ArtistCellView.swift */; };
+		23780A9729DF234400846ED5 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23780A9629DF234400846ED5 /* Artist.swift */; };
+		23780A9929DF28FB00846ED5 /* AlbumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23780A9829DF28FB00846ED5 /* AlbumsView.swift */; };
+		23780A9B29DF2DD700846ED5 /* AlbumCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23780A9A29DF2DD700846ED5 /* AlbumCellView.swift */; };
+		23780A9D29DF2DF200846ED5 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23780A9C29DF2DF200846ED5 /* Album.swift */; };
+		23780A9F29E003D200846ED5 /* AlbumTracksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23780A9E29E003D200846ED5 /* AlbumTracksView.swift */; };
+		23780AA129E0068A00846ED5 /* AlbumTracks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23780AA029E0068A00846ED5 /* AlbumTracks.swift */; };
+		23780AA329E00BB500846ED5 /* TrackCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23780AA229E00BB500846ED5 /* TrackCellView.swift */; };
+		23780AAC29E0291B00846ED5 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23780AA929E0291B00846ED5 /* APIClient.swift */; };
+		23780AAD29E0291B00846ED5 /* DeezerRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23780AAA29E0291B00846ED5 /* DeezerRequests.swift */; };
+		23780AAE29E0291B00846ED5 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23780AAB29E0291B00846ED5 /* APIRequest.swift */; };
+		23780AB029E02A6300846ED5 /* DeezerClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23780AAF29E02A6300846ED5 /* DeezerClient.swift */; };
+		23780AB229E04C6E00846ED5 /* ArtistAlbumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23780AB129E04C6E00846ED5 /* ArtistAlbumsView.swift */; };
+		23780AB429E05B6900846ED5 /* AlbumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23780AB329E05B6900846ED5 /* AlbumView.swift */; };
+		23780AB829E0950400846ED5 /* ArtistSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23780AB729E0950400846ED5 /* ArtistSearchViewModel.swift */; };
+		23780ABA29E0954A00846ED5 /* ArtistAlbumsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23780AB929E0954A00846ED5 /* ArtistAlbumsViewModel.swift */; };
+		23780ABF29E095C300846ED5 /* AlbumViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23780ABE29E095C300846ED5 /* AlbumViewViewModel.swift */; };
+		23780AC229E0A99100846ED5 /* EmptyContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23780AC129E0A99100846ED5 /* EmptyContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		23780A7829DEFC9C00846ED5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 23780A5F29DEFC9B00846ED5 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 23780A6629DEFC9B00846ED5;
-			remoteInfo = TidalChallenge;
-		};
-		23780A8229DEFC9C00846ED5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 23780A5F29DEFC9B00846ED5 /* Project object */;
 			proxyType = 1;
@@ -36,14 +45,30 @@
 /* Begin PBXFileReference section */
 		23780A6729DEFC9B00846ED5 /* TidalChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TidalChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23780A6A29DEFC9B00846ED5 /* TidalChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TidalChallengeApp.swift; sourceTree = "<group>"; };
-		23780A6C29DEFC9B00846ED5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		23780A6C29DEFC9B00846ED5 /* ArtistSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistSearchView.swift; sourceTree = "<group>"; };
 		23780A6E29DEFC9C00846ED5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23780A7129DEFC9C00846ED5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		23780A7729DEFC9C00846ED5 /* TidalChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TidalChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		23780A7B29DEFC9C00846ED5 /* TidalChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TidalChallengeTests.swift; sourceTree = "<group>"; };
-		23780A8129DEFC9C00846ED5 /* TidalChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TidalChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		23780A8529DEFC9C00846ED5 /* TidalChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TidalChallengeUITests.swift; sourceTree = "<group>"; };
-		23780A8729DEFC9C00846ED5 /* TidalChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TidalChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		23780A7B29DEFC9C00846ED5 /* DeezerClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeezerClientTests.swift; sourceTree = "<group>"; };
+		23780A9429DF002300846ED5 /* ArtistCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistCellView.swift; sourceTree = "<group>"; };
+		23780A9629DF234400846ED5 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		23780A9829DF28FB00846ED5 /* AlbumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsView.swift; sourceTree = "<group>"; };
+		23780A9A29DF2DD700846ED5 /* AlbumCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCellView.swift; sourceTree = "<group>"; };
+		23780A9C29DF2DF200846ED5 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		23780A9E29E003D200846ED5 /* AlbumTracksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumTracksView.swift; sourceTree = "<group>"; };
+		23780AA029E0068A00846ED5 /* AlbumTracks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumTracks.swift; sourceTree = "<group>"; };
+		23780AA229E00BB500846ED5 /* TrackCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCellView.swift; sourceTree = "<group>"; };
+		23780AA929E0291B00846ED5 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		23780AAA29E0291B00846ED5 /* DeezerRequests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeezerRequests.swift; sourceTree = "<group>"; };
+		23780AAB29E0291B00846ED5 /* APIRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		23780AAF29E02A6300846ED5 /* DeezerClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeezerClient.swift; sourceTree = "<group>"; };
+		23780AB129E04C6E00846ED5 /* ArtistAlbumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistAlbumsView.swift; sourceTree = "<group>"; };
+		23780AB329E05B6900846ED5 /* AlbumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumView.swift; sourceTree = "<group>"; };
+		23780AB529E093E100846ED5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		23780AB729E0950400846ED5 /* ArtistSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistSearchViewModel.swift; sourceTree = "<group>"; };
+		23780AB929E0954A00846ED5 /* ArtistAlbumsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistAlbumsViewModel.swift; sourceTree = "<group>"; };
+		23780ABE29E095C300846ED5 /* AlbumViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewViewModel.swift; sourceTree = "<group>"; };
+		23780AC129E0A99100846ED5 /* EmptyContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,13 +86,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		23780A7E29DEFC9C00846ED5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -76,7 +94,6 @@
 			children = (
 				23780A6929DEFC9B00846ED5 /* TidalChallenge */,
 				23780A7A29DEFC9C00846ED5 /* TidalChallengeTests */,
-				23780A8429DEFC9C00846ED5 /* TidalChallengeUITests */,
 				23780A6829DEFC9B00846ED5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,7 +103,6 @@
 			children = (
 				23780A6729DEFC9B00846ED5 /* TidalChallenge.app */,
 				23780A7729DEFC9C00846ED5 /* TidalChallengeTests.xctest */,
-				23780A8129DEFC9C00846ED5 /* TidalChallengeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,8 +110,14 @@
 		23780A6929DEFC9B00846ED5 /* TidalChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				23780AB529E093E100846ED5 /* Info.plist */,
 				23780A6A29DEFC9B00846ED5 /* TidalChallengeApp.swift */,
-				23780A6C29DEFC9B00846ED5 /* ContentView.swift */,
+				23780AC129E0A99100846ED5 /* EmptyContentView.swift */,
+				23780AB629E0942C00846ED5 /* Search */,
+				23780ABC29E0957C00846ED5 /* ArtistAlbums */,
+				23780AC029E095D200846ED5 /* AlbumTracks */,
+				23780ABD29E095B600846ED5 /* Model */,
+				23780AA829E0291B00846ED5 /* Networking */,
 				23780A6E29DEFC9C00846ED5 /* Assets.xcassets */,
 				23780A7029DEFC9C00846ED5 /* Preview Content */,
 			);
@@ -113,18 +135,70 @@
 		23780A7A29DEFC9C00846ED5 /* TidalChallengeTests */ = {
 			isa = PBXGroup;
 			children = (
-				23780A7B29DEFC9C00846ED5 /* TidalChallengeTests.swift */,
+				23780A7B29DEFC9C00846ED5 /* DeezerClientTests.swift */,
 			);
 			path = TidalChallengeTests;
 			sourceTree = "<group>";
 		};
-		23780A8429DEFC9C00846ED5 /* TidalChallengeUITests */ = {
+		23780AA829E0291B00846ED5 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				23780A8529DEFC9C00846ED5 /* TidalChallengeUITests.swift */,
-				23780A8729DEFC9C00846ED5 /* TidalChallengeUITestsLaunchTests.swift */,
+				23780AC329E0AC4A00846ED5 /* Deezer */,
+				23780AA929E0291B00846ED5 /* APIClient.swift */,
+				23780AAB29E0291B00846ED5 /* APIRequest.swift */,
 			);
-			path = TidalChallengeUITests;
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		23780AB629E0942C00846ED5 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				23780A6C29DEFC9B00846ED5 /* ArtistSearchView.swift */,
+				23780A9429DF002300846ED5 /* ArtistCellView.swift */,
+				23780AB729E0950400846ED5 /* ArtistSearchViewModel.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		23780ABC29E0957C00846ED5 /* ArtistAlbums */ = {
+			isa = PBXGroup;
+			children = (
+				23780AB129E04C6E00846ED5 /* ArtistAlbumsView.swift */,
+				23780AB929E0954A00846ED5 /* ArtistAlbumsViewModel.swift */,
+				23780A9829DF28FB00846ED5 /* AlbumsView.swift */,
+				23780A9A29DF2DD700846ED5 /* AlbumCellView.swift */,
+			);
+			path = ArtistAlbums;
+			sourceTree = "<group>";
+		};
+		23780ABD29E095B600846ED5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				23780A9629DF234400846ED5 /* Artist.swift */,
+				23780A9C29DF2DF200846ED5 /* Album.swift */,
+				23780AA029E0068A00846ED5 /* AlbumTracks.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		23780AC029E095D200846ED5 /* AlbumTracks */ = {
+			isa = PBXGroup;
+			children = (
+				23780A9E29E003D200846ED5 /* AlbumTracksView.swift */,
+				23780AB329E05B6900846ED5 /* AlbumView.swift */,
+				23780ABE29E095C300846ED5 /* AlbumViewViewModel.swift */,
+				23780AA229E00BB500846ED5 /* TrackCellView.swift */,
+			);
+			path = AlbumTracks;
+			sourceTree = "<group>";
+		};
+		23780AC329E0AC4A00846ED5 /* Deezer */ = {
+			isa = PBXGroup;
+			children = (
+				23780AAA29E0291B00846ED5 /* DeezerRequests.swift */,
+				23780AAF29E02A6300846ED5 /* DeezerClient.swift */,
+			);
+			path = Deezer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,24 +239,6 @@
 			productReference = 23780A7729DEFC9C00846ED5 /* TidalChallengeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		23780A8029DEFC9C00846ED5 /* TidalChallengeUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 23780A9129DEFC9C00846ED5 /* Build configuration list for PBXNativeTarget "TidalChallengeUITests" */;
-			buildPhases = (
-				23780A7D29DEFC9C00846ED5 /* Sources */,
-				23780A7E29DEFC9C00846ED5 /* Frameworks */,
-				23780A7F29DEFC9C00846ED5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				23780A8329DEFC9C00846ED5 /* PBXTargetDependency */,
-			);
-			name = TidalChallengeUITests;
-			productName = TidalChallengeUITests;
-			productReference = 23780A8129DEFC9C00846ED5 /* TidalChallengeUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,10 +253,6 @@
 						CreatedOnToolsVersion = 14.2;
 					};
 					23780A7629DEFC9C00846ED5 = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = 23780A6629DEFC9B00846ED5;
-					};
-					23780A8029DEFC9C00846ED5 = {
 						CreatedOnToolsVersion = 14.2;
 						TestTargetID = 23780A6629DEFC9B00846ED5;
 					};
@@ -221,7 +273,6 @@
 			targets = (
 				23780A6629DEFC9B00846ED5 /* TidalChallenge */,
 				23780A7629DEFC9C00846ED5 /* TidalChallengeTests */,
-				23780A8029DEFC9C00846ED5 /* TidalChallengeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -243,13 +294,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		23780A7F29DEFC9C00846ED5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -257,8 +301,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23780A6D29DEFC9B00846ED5 /* ContentView.swift in Sources */,
+				23780A9529DF002300846ED5 /* ArtistCellView.swift in Sources */,
+				23780ABA29E0954A00846ED5 /* ArtistAlbumsViewModel.swift in Sources */,
+				23780AC229E0A99100846ED5 /* EmptyContentView.swift in Sources */,
+				23780A6D29DEFC9B00846ED5 /* ArtistSearchView.swift in Sources */,
+				23780AAE29E0291B00846ED5 /* APIRequest.swift in Sources */,
+				23780AB229E04C6E00846ED5 /* ArtistAlbumsView.swift in Sources */,
+				23780AA329E00BB500846ED5 /* TrackCellView.swift in Sources */,
+				23780A9B29DF2DD700846ED5 /* AlbumCellView.swift in Sources */,
+				23780AB429E05B6900846ED5 /* AlbumView.swift in Sources */,
+				23780A9929DF28FB00846ED5 /* AlbumsView.swift in Sources */,
+				23780AAC29E0291B00846ED5 /* APIClient.swift in Sources */,
+				23780AA129E0068A00846ED5 /* AlbumTracks.swift in Sources */,
+				23780AB829E0950400846ED5 /* ArtistSearchViewModel.swift in Sources */,
+				23780A9F29E003D200846ED5 /* AlbumTracksView.swift in Sources */,
+				23780A9729DF234400846ED5 /* Artist.swift in Sources */,
+				23780AAD29E0291B00846ED5 /* DeezerRequests.swift in Sources */,
+				23780A9D29DF2DF200846ED5 /* Album.swift in Sources */,
 				23780A6B29DEFC9B00846ED5 /* TidalChallengeApp.swift in Sources */,
+				23780AB029E02A6300846ED5 /* DeezerClient.swift in Sources */,
+				23780ABF29E095C300846ED5 /* AlbumViewViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,16 +328,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23780A7C29DEFC9C00846ED5 /* TidalChallengeTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		23780A7D29DEFC9C00846ED5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				23780A8629DEFC9C00846ED5 /* TidalChallengeUITests.swift in Sources */,
-				23780A8829DEFC9C00846ED5 /* TidalChallengeUITestsLaunchTests.swift in Sources */,
+				23780A7C29DEFC9C00846ED5 /* DeezerClientTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,11 +339,6 @@
 			isa = PBXTargetDependency;
 			target = 23780A6629DEFC9B00846ED5 /* TidalChallenge */;
 			targetProxy = 23780A7829DEFC9C00846ED5 /* PBXContainerItemProxy */;
-		};
-		23780A8329DEFC9C00846ED5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 23780A6629DEFC9B00846ED5 /* TidalChallenge */;
-			targetProxy = 23780A8229DEFC9C00846ED5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -420,7 +468,7 @@
 				DEVELOPMENT_TEAM = 9VSYQ6QW3Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = TidalChallenge/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -449,7 +497,7 @@
 				DEVELOPMENT_TEAM = 9VSYQ6QW3Z;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = TidalChallenge/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -507,42 +555,6 @@
 			};
 			name = Release;
 		};
-		23780A9229DEFC9C00846ED5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9VSYQ6QW3Z;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.zofiadrabek.TidalChallengeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TidalChallenge;
-			};
-			name = Debug;
-		};
-		23780A9329DEFC9C00846ED5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9VSYQ6QW3Z;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.zofiadrabek.TidalChallengeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TidalChallenge;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -569,15 +581,6 @@
 			buildConfigurations = (
 				23780A8F29DEFC9C00846ED5 /* Debug */,
 				23780A9029DEFC9C00846ED5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		23780A9129DEFC9C00846ED5 /* Build configuration list for PBXNativeTarget "TidalChallengeUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				23780A9229DEFC9C00846ED5 /* Debug */,
-				23780A9329DEFC9C00846ED5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

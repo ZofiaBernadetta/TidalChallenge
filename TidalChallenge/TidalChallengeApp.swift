@@ -11,7 +11,9 @@ import SwiftUI
 struct TidalChallengeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                ArtistSearchView()
+            }
         }
     }
 }
