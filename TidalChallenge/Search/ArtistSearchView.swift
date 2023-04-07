@@ -53,7 +53,6 @@ struct ArtistSearchView: View {
             text: $model.queryString,
             placement: .navigationBarDrawer(displayMode: .always),
             prompt: "Search"
-
         )
     }
 }
